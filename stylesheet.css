@@ -149,6 +149,9 @@ body {
         justify-content: center;
         margin: 0;
         padding: 8px 0;
+        width: 100%;
+        color: #FCFCFC;
+        background-color: #0b0c10;
     }
     .links>li:not(:last-child) {
         border-bottom: 1px solid #FCFCFC;
