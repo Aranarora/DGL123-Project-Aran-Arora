@@ -97,7 +97,10 @@ body {
 }
 
 .navbar a,
-.links a {}
+.links a {
+    padding: 10px 20px;
+    display: inline;
+}
 
 .navbar a:hover,
 .links a:hover {}
