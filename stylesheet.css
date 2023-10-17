@@ -103,4 +103,6 @@ body {
 }
 
 .navbar a:hover,
-.links a:hover {}
+.links a:hover {
+    background-color: #66fcf1;
+}
