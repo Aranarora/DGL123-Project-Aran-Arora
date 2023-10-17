@@ -144,7 +144,10 @@ body {
         text-align: center;
         padding: 15px;
     }
-    .links>li {}
+    .links>li {
+        display: flex;
+        justify-content: center;
+    }
     .links>li:not(:last-child) {
         border-bottom: 1px solid #FCFCFC;
     }
