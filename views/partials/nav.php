@@ -2,7 +2,10 @@
 
         <nav class="navbar">
         <a href="/">RunRentals</a>
-       
+        <!-- creating menu in css only idea taken from https://codepen.io/alvarotrigo/pen/MWEJEWG  -->
+        <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+            <mark class="menu-button"></mark>
             <div id="Links">
                 <a href="ride">Ride</a>
                 <a href="about">About</a>
