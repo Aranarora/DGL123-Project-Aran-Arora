@@ -20,7 +20,10 @@ body {
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
-.navbar {}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
 
 .links {}
 
