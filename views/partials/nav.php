@@ -6,7 +6,8 @@
         <input id="menu-toggle" type="checkbox" />
             <label class="menu-button-container" for="menu-toggle">
             <mark class="menu-button"></mark>
-            <div id="Links">
+            </label>
+            <div id="links">
                 <a href="ride">Ride</a>
                 <a href="about">About</a>
                 <a href="contact">Contact Us</a>
