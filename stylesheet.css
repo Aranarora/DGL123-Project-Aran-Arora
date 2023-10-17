@@ -117,6 +117,7 @@ body {
     .links {
         position: absolute;
         top: 0;
+        margin-top: 70px;
         left: 0;
     }
     #menu-toggle~.links li {
