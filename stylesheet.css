@@ -30,7 +30,12 @@ body {
     padding: 16px 32px;
 }
 
-.links {}
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+}
 
 .menu-button-container {
     display: none;
