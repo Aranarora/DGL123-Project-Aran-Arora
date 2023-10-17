@@ -147,6 +147,8 @@ body {
     .links>li {
         display: flex;
         justify-content: center;
+        margin: 0;
+        padding: 8px 0;
     }
     .links>li:not(:last-child) {
         border-bottom: 1px solid #FCFCFC;
