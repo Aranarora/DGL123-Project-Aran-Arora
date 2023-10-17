@@ -20,6 +20,11 @@ body {
     line-height: 1.5;
 }
 
+a {
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
 
 /* Navigation */
 
