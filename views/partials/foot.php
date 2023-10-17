@@ -7,7 +7,16 @@
                     </figure>
                 </div>
                 <div class="direct-contact">
+                    <p>EMAIL ADDRESS</p>
+                    <ul>
 
+                        <li><a href="mailto:example@gmail.com">\example@gmail.com</a></li>
+                    </ul>
+                    <p>PHONE NUMBER</p>
+                    <ul>
+
+                        <li><a href="tel:123-456-7890">1234567890</a></li>
+                    </ul>
                 </div>
             </div>
     </footer>
