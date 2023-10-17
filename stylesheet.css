@@ -21,6 +21,9 @@ body {
 }
 
 
+/* Navigation */
+
+
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .navbar {
@@ -115,6 +118,7 @@ body {
 
 @media screen and (max-width:749px) {
     /* Global Styling */
+    /* Navigation */
     .menu-button-container {
         display: flex;
     }
