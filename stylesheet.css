@@ -141,6 +141,8 @@ body {
     }
     .links li a {
         display: block;
+        text-align: center;
+        padding: 15px;
     }
     .links>li {}
     .links>li:not(:last-child) {
