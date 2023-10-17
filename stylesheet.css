@@ -35,6 +35,10 @@ body {
     flex-direction: row;
     list-style-type: none;
     justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    max-width: 750px;
+    width: 85%;
 }
 
 .menu-button-container {
