@@ -55,7 +55,10 @@ body {
     display: none;
 }
 
-.links>a {}
+.links>li {
+    padding: 5px;
+    overflow: hidden;
+}
 
 .menu-button,
 .menu-button::before,
