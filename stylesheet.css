@@ -312,3 +312,5 @@ footer a:hover {
         border-bottom: 1px solid #FCFCFC;
     }
 }
+
+@media screen and (min-width:1024px) {}
