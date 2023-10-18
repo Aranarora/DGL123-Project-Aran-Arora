@@ -337,6 +337,10 @@ footer a:hover {
     flex-direction: column;
 }
 
+.form-wrapper input:focus-visible {
+    outline: 2px dashed #66fcf1;
+}
+
 
 /* max-width:749px */
 
