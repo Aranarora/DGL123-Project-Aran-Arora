@@ -373,6 +373,14 @@ footer a:hover {
     color: whitesmoke;
 }
 
+.form-wrapper h2 {
+    color: whitesmoke;
+}
+
+.form-wrapper label {
+    color: whitesmoke;
+}
+
 
 /* max-width:749px */
 
