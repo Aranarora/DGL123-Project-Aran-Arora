@@ -381,6 +381,10 @@ footer a:hover {
     color: whitesmoke;
 }
 
+.form-wrapper {
+    border-radius: 5px;
+}
+
 
 /* max-width:749px */
 
