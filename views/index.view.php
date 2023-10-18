@@ -21,22 +21,11 @@
             transportation. With a commitment to sustainability, these scooters offer a
             clean and eco-friendly alternative for commuting.
             </p>
-            <p>
-            <b>Futuristic Design and Functionality:</b> Electric scooters are not just
-            environmentally conscious; they're also designed for the future. Through
-            cutting-edge technology, these scooters provide a convenient and efficient
-            mode of transportation.
-            </p>
             <p>At RunRentals, our commitment revolves around enhancing the accessibility 
                 and enjoyment of city travel for tourists. Our goal is to offer a pleasurable
                  and easily accessible means of transportation, enabling visitors to leisurely
                   explore their destinations. With our diverse selection of electric scooters, 
-                  you have the freedom to wander and immerse yourself in the local culture.At 
-                  RunRentals, our commitment revolves around enhancing the accessibility and 
-                  enjoyment of city travel for tourists. Our goal is to offer a pleasurable 
-                  and easily accessible means of transportation, enabling visitors to leisurely
-                   explore their destinations. With our diverse selection of electric scooters, 
-                   you have the freedom to wander and immerse yourself in the local culture.
+                  you have the freedom to wander and immerse yourself in the local culture.
 
             </p>
           <br />
