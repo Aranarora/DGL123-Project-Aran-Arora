@@ -144,6 +144,10 @@ h3 {
 /* footer styling */
 
 footer {
+    text-align: center;
+}
+
+footer {
     background: #0b0c10;
     color: #FCFCFC;
 }
