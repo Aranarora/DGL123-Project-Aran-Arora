@@ -39,6 +39,11 @@ h3 {
     font-family: 'Playfair Display', serif;
 }
 
+.content-wrap {
+    max-width: 1000px;
+    width: 90%;
+}
+
 
 /* Navigation */
 
