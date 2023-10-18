@@ -26,6 +26,28 @@
                 <button class="btn">Book Now</button>
             </div>
             </article>
+            <article class="cards">
+            <div class="part1-div2">
+                <picture class="black">
+                </picture>
+            <div>
+                <h3>Model Y</h3>
+                <p>
+                Introducing our cutting-edge electric scooter model, the Model Y. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
+                <button class="btn">Book Now</button>
+            </div>
+            </article>
+            <article class="cards">
+            <div class="part1-div2">
+                <picture class="black">
+                </picture>
+            <div>
+                <h3>Model Z</h3>
+                <p>
+                Introducing our cutting-edge electric scooter model, the Model Z. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
+                <button class="btn">Book Now</button>
+            </div>
+            </article>
             </div>
         </div>
 </div>
