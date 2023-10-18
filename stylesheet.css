@@ -328,6 +328,16 @@ footer a:hover {
 }
 
 
+/* ===============
+         STRUCTURE
+         =============== */
+
+.form-wrapper input {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* max-width:749px */
 
 @media screen and (min-width:750px) {
