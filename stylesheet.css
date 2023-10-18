@@ -323,4 +323,9 @@ footer a:hover {
     .part1-div1 {
         order: 0;
     }
+    .part1-div2 img {
+        margin-left: 24px;
+        width: 560px;
+        height: 315px;
+    }
 }
