@@ -12,6 +12,12 @@
             In the global micromobility initiative, focused on reducing car dependency and urban traffic congestion, electric scooters emerge as the most efficient mode of transportation. The Long-Term Renewable City Plan in British Columbia sets a goal to transition all transportation and building energy consumption in the city to renewable sources by 2050. Achieving this target would not only enhance environmental and air quality but also contribute to the economic growth of British Columbia.</p>
     </div>
 
+
+    <div class="cardssection">
+        <div class="allcards">
+            
+            </div>
+        </div>
 </div>
 </main>
 <?php require('partials/foot.php') ?>
