@@ -178,6 +178,7 @@ footer a:hover {
 @media screen and (min-width:750px) {
     .contact-list {
         display: flex;
+        justify-content: space-between;
     }
 }
 
