@@ -275,6 +275,8 @@ footer a:hover {
     width: 320px;
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 
