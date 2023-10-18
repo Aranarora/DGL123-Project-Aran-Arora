@@ -384,6 +384,8 @@ footer a:hover {
 .form-wrapper {
     border-radius: 5px;
     background-color: #0b0c10;
+    max-width: 100%;
+    padding: 20px;
 }
 
 
