@@ -347,6 +347,13 @@ footer a:hover {
     font-size: 1.6rem;
 }
 
+.form-wrapper input[type="text"],
+.form-wrapper select,
+.form-wrapper textarea {
+    width: 100%;
+    padding: 12px;
+}
+
 
 /* max-width:749px */
 
