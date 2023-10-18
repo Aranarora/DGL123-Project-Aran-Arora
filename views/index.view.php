@@ -13,5 +13,8 @@
             </figure>
         </div>
     </div>
+    <div class="content-part1">
+       
+    </div>
 </main>
 <?php require('partials/foot.php') ?>
