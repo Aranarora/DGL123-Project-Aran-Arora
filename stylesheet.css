@@ -173,6 +173,11 @@ footer a:hover {
 }
 
 
+/* max-width:749px */
+
+@media screen and (min-width:750px) {}
+
+
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 @media screen and (max-width:749px) {
