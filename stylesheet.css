@@ -158,6 +158,10 @@ footer p {
     margin-bottom: 0;
 }
 
+footer a:hover {
+    color: rgba(102, 252, 241, 80%);
+}
+
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
