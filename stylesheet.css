@@ -141,6 +141,14 @@ h3 {
 }
 
 
+/* button */
+
+.btn {
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+
 /* footer styling */
 
 footer {
