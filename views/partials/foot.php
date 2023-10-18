@@ -1,4 +1,5 @@
-<footer class="content-wrap">
+<footer >
+    <div class="content-wrap">
             <div class="contact-list">
             <div class="home-logo">
                     <figure>
@@ -29,6 +30,7 @@
                     </ul>
 
                 </div>
+            </div>
             </div>
     </footer>
 </body>
