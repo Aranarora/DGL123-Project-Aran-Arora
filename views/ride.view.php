@@ -19,7 +19,12 @@
             <div class="part1-div2">
                 <picture class="black">
                 </picture>
-           
+            <div>
+                <h3>Model X</h3>
+                <p>
+                Introducing our cutting-edge electric scooter model, the Model X. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
+                
+            </div>
             </article>
             </div>
         </div>
