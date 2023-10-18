@@ -295,6 +295,7 @@ footer a:hover {
     box-sizing: border-box;
     width: 320px;
     max-width: fit-content;
+    margin-bottom: 48px;
 }
 
 
