@@ -153,6 +153,11 @@ footer a {
     color: #66fcf1;
 }
 
+footer p {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
