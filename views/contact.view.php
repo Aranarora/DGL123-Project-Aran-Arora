@@ -5,6 +5,7 @@
         <h1>Contact Us</h1>
 
         <div class="form-wrapper">
+            <h2>Contact Form</h2>
             
         </div>
 
