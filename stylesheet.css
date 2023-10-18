@@ -368,6 +368,11 @@ footer a:hover {
     color: #66fcf1;
 }
 
+.form-label-optional {
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
 
 /* max-width:749px */
 
