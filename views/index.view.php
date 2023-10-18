@@ -13,7 +13,7 @@
             </figure>
         </div>
     </div>
-    <div class="content-part1">
+    <div class="content-part1 content-wrap">
         <div class="part1-div1">
         <h1>The Electric Scooter Revolution</h1>
         <p>
