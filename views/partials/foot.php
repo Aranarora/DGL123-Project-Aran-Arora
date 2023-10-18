@@ -19,7 +19,14 @@
                     </ul>
                 </div>
                 <div class="social-contact">
+                    <p>SOCIAL MEDIA</p>
+                    <ul>
 
+
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
 
                 </div>
             </div>
