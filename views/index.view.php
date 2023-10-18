@@ -42,6 +42,11 @@
           <br />
           <p>Watch the video to know more....</p>
         </div>
+        <div class="part1-div2">
+        <picture>
+            <img src="imagefolder/placeholder-1.png">
+        </picture>
+        </div>
       </div>
 </main>
 <?php require('partials/foot.php') ?>
