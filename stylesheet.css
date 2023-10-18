@@ -377,4 +377,10 @@ footer a:hover {
         width: 560px;
         height: 315px;
     }
+    /* ride */
+    .allcards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
