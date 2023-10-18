@@ -14,7 +14,9 @@
         </div>
     </div>
     <div class="content-part1">
-       
-    </div>
+        <div class="part1-div1">
+          
+        </div>
+      </div>
 </main>
 <?php require('partials/foot.php') ?>
