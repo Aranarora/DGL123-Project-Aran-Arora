@@ -341,6 +341,12 @@ footer a:hover {
     outline: 2px dashed #66fcf1;
 }
 
+.form-wrapper input,
+.form-wrapper select,
+.form-wrapper textarea {
+    font-size: 1.6rem;
+}
+
 
 /* max-width:749px */
 
