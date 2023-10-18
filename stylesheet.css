@@ -306,6 +306,9 @@ footer a:hover {
     width: 300px;
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
 }
 
 
