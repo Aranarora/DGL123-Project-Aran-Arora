@@ -183,6 +183,11 @@ footer a:hover {
     margin: 0 auto;
 }
 
+#slider figure {
+    position: relative;
+    width: 500%;
+}
+
 
 /* max-width:749px */
 
