@@ -322,6 +322,11 @@ footer a:hover {
     border-radius: 4px;
 }
 
+.form-wrapper input[type="submit"]:hover {
+    background-color: #0b0c10;
+    color: #66fcf1;
+}
+
 
 /* max-width:749px */
 
