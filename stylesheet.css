@@ -146,6 +146,8 @@ h3 {
 .btn {
     background-color: #66fcf1;
     color: #0b0c10;
+    border: none;
+    border-radius: 5px;
 }
 
 
