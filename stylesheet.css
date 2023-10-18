@@ -363,6 +363,11 @@ footer a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.form-label-required {
+    font-size: 1rem;
+    color: #66fcf1;
+}
+
 
 /* max-width:749px */
 
