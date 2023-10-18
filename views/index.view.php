@@ -37,5 +37,8 @@
         </picture>
         </div>
       </div>
+      <div class="content-wrap content-part2">
+    
+      </div>
 </main>
 <?php require('partials/foot.php') ?>
