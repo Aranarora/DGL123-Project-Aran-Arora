@@ -3,7 +3,11 @@
 <?php require('partials/nav.php') ?>
 <main>
 <div class="content-wrap">
+<h1>About</h1>
 
+<div class="content-part1">
+    
+</div>
 </div>
 </main>
 
