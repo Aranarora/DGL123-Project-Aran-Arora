@@ -10,7 +10,7 @@
                     <p>EMAIL ADDRESS</p>
                     <ul>
 
-                        <li><a href="mailto:example@gmail.com">\example@gmail.com</a></li>
+                        <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
                     </ul>
                     <p>PHONE NUMBER</p>
                     <ul>

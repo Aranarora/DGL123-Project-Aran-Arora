@@ -148,6 +148,11 @@ footer {
     color: #FCFCFC;
 }
 
+footer a {
+    padding: 5px 0px;
+    color: #66fcf1;
+}
+
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
