@@ -316,6 +316,8 @@ footer a:hover {
 
 .form-wrapper input[type="submit"] {
     color: #0b0c10;
+    background-color: #66fcf1;
+    padding: 12px 20px;
 }
 
 
