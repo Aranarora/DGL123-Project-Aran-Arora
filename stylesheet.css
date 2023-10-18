@@ -141,6 +141,14 @@ h3 {
 }
 
 
+/* footer styling */
+
+footer {
+    background: #0b0c10;
+    color: #FCFCFC;
+}
+
+
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 @media screen and (max-width:749px) {
