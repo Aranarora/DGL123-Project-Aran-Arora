@@ -175,7 +175,11 @@ footer a:hover {
 
 /* max-width:749px */
 
-@media screen and (min-width:750px) {}
+@media screen and (min-width:750px) {
+    .contact-list {
+        display: flex;
+    }
+}
 
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
