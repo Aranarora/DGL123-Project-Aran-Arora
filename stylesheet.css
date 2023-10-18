@@ -213,6 +213,11 @@ footer a:hover {
     margin: 0 auto;
 }
 
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
 #slider figure {
     position: relative;
     width: 500%;
