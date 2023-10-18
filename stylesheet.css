@@ -273,6 +273,8 @@ footer a:hover {
     background-color: #0b0c10;
     height: 240px;
     width: 320px;
+    margin: auto;
+    display: flex;
 }
 
 
