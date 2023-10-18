@@ -15,7 +15,9 @@
 
     <div class="cardssection">
         <div class="allcards">
+            <article class="cards">
             
+            </article>
             </div>
         </div>
 </div>
