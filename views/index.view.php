@@ -4,7 +4,13 @@
 <main>
     <div class="back-slider">
         <div id="slider">
-            
+            <figure>
+                <img src="imagefolder/placeholder.jpeg">
+                <img src="imagefolder/placeholder-1.png">
+                <img src="imagefolder/placeholder.jpeg">
+                <img src="imagefolder/placeholder-1.png">
+                <img src="imagefolder/placeholder.jpeg">
+            </figure>
         </div>
     </div>
 </main>
