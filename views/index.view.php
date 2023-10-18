@@ -44,7 +44,7 @@
         </div>
         <div class="part1-div2">
         <picture>
-            <img src="imagefolder/placeholder-1.png">
+            <img src="imagefolder/placeholder-1.png" width="80%" height="auto">
         </picture>
         </div>
       </div>
