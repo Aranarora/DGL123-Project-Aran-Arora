@@ -7,7 +7,21 @@
         <div class="form-wrapper">
             <h2>Contact Form</h2>
             <form method="post" action="link-of-the-action">
-                
+                <label for="field-1">
+             Full Name<span class="form-label-required"
+              >* (required)</span></label>
+
+
+                <label for="field-2">Mobile numbeer<span class="form-label-required"
+              >* (required)</span></label>
+
+
+                <label for="field-3">E-mail<span class="form-label-optional"
+              >* (optional)</span
+            ></label>
+
+                <div class="form-wrapper-button">
+                </div>
             </form>
         </div>
 
