@@ -291,6 +291,10 @@ footer a:hover {
     align-items: center;
 }
 
+.cards {
+    box-sizing: border-box;
+}
+
 
 /* max-width:749px */
 
