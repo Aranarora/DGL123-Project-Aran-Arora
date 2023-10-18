@@ -293,6 +293,8 @@ footer a:hover {
 
 .cards {
     box-sizing: border-box;
+    width: 320px;
+    max-width: fit-content;
 }
 
 
