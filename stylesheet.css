@@ -225,7 +225,7 @@ footer a:hover {
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: sliders;
+    animation: 15s sliders ease-in-out;
 }
 
 
