@@ -178,6 +178,8 @@ footer a:hover {
 
 #slider {
     overflow: hidden;
+    max-width: 1200px;
+    height: 500px;
 }
 
 
