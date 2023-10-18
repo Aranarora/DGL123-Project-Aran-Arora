@@ -352,6 +352,8 @@ footer a:hover {
 .form-wrapper textarea {
     width: 100%;
     padding: 12px;
+    border: 0px;
+    border-radius: 4px;
 }
 
 
