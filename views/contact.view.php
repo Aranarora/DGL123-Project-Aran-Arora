@@ -6,7 +6,9 @@
 
         <div class="form-wrapper">
             <h2>Contact Form</h2>
-            
+            <form method="post" action="link-of-the-action">
+                
+            </form>
         </div>
 
     </main>
