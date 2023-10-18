@@ -359,6 +359,10 @@ footer a:hover {
     resize: vertical;
 }
 
+.form-wrapper textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* max-width:749px */
 
