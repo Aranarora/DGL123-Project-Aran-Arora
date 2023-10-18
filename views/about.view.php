@@ -6,7 +6,7 @@
 <h1>About</h1>
 
 <div class="content-part1">
-    <div class="part1-div1"><img src="imagefolder/illus-men.webp" alt="image of no face boy in illustration" style="width: 80%" /></div>
+    <div class="part1-div1-img"><img src="imagefolder/illus-men.webp" alt="image of no face boy in illustration" style="width: 80%" /></div>
     <div class="part1-div2">
         <h2>RunRentals Journey</h2>
         <div>
