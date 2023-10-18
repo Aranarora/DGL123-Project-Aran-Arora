@@ -168,6 +168,10 @@ footer a:hover {
     padding: 0;
 }
 
+.contact-list a {
+    display: inline-block;
+}
+
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
