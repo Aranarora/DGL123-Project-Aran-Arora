@@ -184,6 +184,11 @@ footer a:hover {
     flex-direction: column;
 }
 
+.part1-div2 {
+    position: relative;
+    order: 0;
+}
+
 @keyframes sliders {
     0% {
         left: 0%;
