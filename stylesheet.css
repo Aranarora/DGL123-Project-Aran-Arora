@@ -1,3 +1,5 @@
+/* Global Styling */
+
 html {
     box-sizing: border-box;
 }
@@ -390,7 +392,7 @@ footer a:hover {
 }
 
 
-/* max-width:749px */
+/* min-width:750px */
 
 @media screen and (min-width:750px) {
     .contact-list {
@@ -401,6 +403,9 @@ footer a:hover {
 
 
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
+
+
+/* Mobile styles here */
 
 @media screen and (max-width:749px) {
     /* Global Styling */
@@ -452,6 +457,9 @@ footer a:hover {
         border-bottom: 1px solid #FCFCFC;
     }
 }
+
+
+/* Tablet and larger styles here */
 
 @media screen and (min-width:1024px) {
     /* home */
