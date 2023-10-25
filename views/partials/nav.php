@@ -26,7 +26,7 @@
         <form class="login-form">
         <input type="text" id="field-1" type="text" placeholder="username"/>
         <input type="password" id="field-1" type="password" placeholder="password"/>
-          <button class="form-wrapper-button">login</button>
+          <button class="form-wrapper-button">LOGIN</button>
           <p class="message">Not registered? <a href="#signup">Create an account</a></p>
         </form>
         </div>
