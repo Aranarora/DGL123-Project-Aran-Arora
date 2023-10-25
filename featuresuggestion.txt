@@ -36,3 +36,5 @@
 - I worked on the styling and am done with it as much as it works for me, not wholly as I thought.
 
 - Now, I am working on the login page to make the profile page work from it.
+
+- Self evaluation: 3/4
