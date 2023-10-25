@@ -70,6 +70,11 @@
     pointer-events: auto;
 }
 
+.close {
+    line-height: 25px;
+    position: absolute;
+}
+
 
 /* Colors variables */
 
