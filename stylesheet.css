@@ -59,6 +59,11 @@
     text-decoration: none;
 }
 
+.form .message a:hover,
+.form .message a:active {
+    color: rgba(102, 252, 241, 80%);
+}
+
 
 /* Colors variables */
 
