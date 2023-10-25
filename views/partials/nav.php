@@ -22,7 +22,7 @@
       <div class="form">
       <a href="#close" title="Close" class="close">X</a>
 
-      <h2>Login Form</h2>
+      <h2>LOGIN</h2>
         <form class="login-form">
         <input type="text" id="field-1" type="text" placeholder="username"/>
         <input type="password" id="field-1" type="password" placeholder="password"/>
@@ -35,7 +35,7 @@
       <div class="form">
       <a href="#close" title="Close" class="close">X</a>
 
-      <h2>Sign Up Form</h2>
+      <h2>SIGN UP</h2>
         <form class="login-form">
         <input type="text" id="field-1" type="text" placeholder="username"/>
         <input type="password" id="field-1" type="password" placeholder="password"/>
