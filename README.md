@@ -34,3 +34,5 @@
   - Ride History: Users can view a detailed history of their scooter rides, including date and time. Privacy and Security Settings: Users can manage their privacy settings, including who can see their ride history and personal information.
 
 - The feature ChatsGPT gives me is the same as students about adding dynamic elements ChatGPT suggests, like adding a profile and history to the user to improve the user experience.
+
+- The features I will complete in the 25th Oct class are to improve my Styling page as mentioned in the intended feature.
