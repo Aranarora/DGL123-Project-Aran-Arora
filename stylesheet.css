@@ -66,6 +66,7 @@
 
 .login-page:target {
     opacity: 1;
+    pointer-events: auto;
 }
 
 
