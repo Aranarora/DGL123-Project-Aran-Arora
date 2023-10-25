@@ -35,6 +35,7 @@
 
 .form button {
     width: 100%;
+    background-color: var(--accent-color);
     color: var(--main-text-color);
 }
 
