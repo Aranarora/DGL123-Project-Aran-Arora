@@ -12,13 +12,13 @@
                 <li><a href="about">About</a></li>
                 <li><a href="contact">Contact Us</a>
                 <li><a href="#">SIGN UP</a>
-                <li><a href="#">LOGIN</a>
+                <li><a href="#login">LOGIN</a>
             </li>
             </ul>
         </nav>
          <!-- https://codepen.io/colorlib/pen/rxddKy -->
             
-      <div class="login-page">
+      <div id="login" class="login-page">
       
       <div class="form">
       <h2>Login Form</h2>
