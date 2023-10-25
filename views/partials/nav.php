@@ -23,7 +23,9 @@
       <div class="form">
       <h2>Login Form</h2>
         <form class="login-form">
-        
+        <input type="text" id="field-1" type="text" placeholder="username"/>
+        <input type="text" id="field-1" type="password" placeholder="password"/>
+
         </form>
         </div>
       </div>
