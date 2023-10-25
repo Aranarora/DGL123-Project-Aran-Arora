@@ -43,6 +43,11 @@
     cursor: pointer;
 }
 
+.form button:hover,
+.form button:active {
+    background: rgba(102, 252, 241, 80%);
+}
+
 
 /* Colors variables */
 
