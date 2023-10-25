@@ -37,6 +37,8 @@
     width: 100%;
     background-color: var(--accent-color);
     color: var(--main-text-color);
+    padding: 15px;
+    border: none;
 }
 
 
