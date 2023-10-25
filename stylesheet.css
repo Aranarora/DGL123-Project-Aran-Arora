@@ -54,6 +54,11 @@
     font-size: 12px;
 }
 
+.form .message a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 
 /* Colors variables */
 
