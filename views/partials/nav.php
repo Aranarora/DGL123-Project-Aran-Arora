@@ -24,8 +24,9 @@
       <h2>Login Form</h2>
         <form class="login-form">
         <input type="text" id="field-1" type="text" placeholder="username"/>
-        <input type="text" id="field-1" type="password" placeholder="password"/>
-
+        <input type="password" id="field-1" type="password" placeholder="password"/>
+          <button class="form-wrapper-button">login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
         </form>
         </div>
       </div>
