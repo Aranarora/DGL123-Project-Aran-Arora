@@ -74,6 +74,9 @@
     background: var(--accent-color);
     line-height: 25px;
     position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0px;
 }
 
 
