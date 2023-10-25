@@ -71,6 +71,7 @@
 }
 
 .close {
+    background: var(--accent-color);
     line-height: 25px;
     position: absolute;
 }
