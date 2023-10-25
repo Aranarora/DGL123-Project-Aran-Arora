@@ -13,6 +13,8 @@
 .form {
     color: var(--main-text-color);
     position: relative;
+    background: var(--main-bg-color);
+    max-width: 360px;
 }
 
 
