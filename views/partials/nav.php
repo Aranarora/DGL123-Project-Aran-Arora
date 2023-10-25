@@ -31,5 +31,19 @@
         </form>
         </div>
       </div>
+      <div id="Signup" class="login-page">
+      <div class="form">
+      <a href="#close" title="Close" class="close">X</a>
+
+      <h2>Sign Up Form</h2>
+        <form class="login-form">
+        <input type="text" id="field-1" type="text" placeholder="username"/>
+        <input type="password" id="field-1" type="password" placeholder="password"/>
+        <input type="text" id="field-1" type="email" placeholder="email address"/>
+          <button class="form-wrapper-button">SIGN UP</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+        </div>
+      </div>
 
 </header>
