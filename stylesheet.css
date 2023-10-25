@@ -39,6 +39,8 @@
     color: var(--main-text-color);
     padding: 15px;
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
