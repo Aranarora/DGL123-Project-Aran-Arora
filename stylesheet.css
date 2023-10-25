@@ -1,11 +1,9 @@
-/* Colors and Fonts variables */
+/* Colors variables */
 
 :root {
     --main-bg-color: #0b0c10;
     --main-text-color: #FCFCFC;
     --accent-color: #66fcf1;
-    --font-family-montserrat: 'Montserrat', sans-serif;
-    --font-family-playfair: 'Playfair Display', serif;
 }
 
 
