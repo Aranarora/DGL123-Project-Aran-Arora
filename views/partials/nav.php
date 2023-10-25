@@ -11,7 +11,7 @@
                 <li><a href="ride">Ride</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="contact">Contact Us</a>
-                <li><a href="#">SIGN UP</a>
+                <li><a href="#signup">SIGN UP</a>
                 <li><a href="#login">LOGIN</a>
             </li>
             </ul>
