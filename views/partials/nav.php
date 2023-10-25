@@ -19,8 +19,9 @@
          <!-- https://codepen.io/colorlib/pen/rxddKy -->
             
       <div id="login" class="login-page">
-      
       <div class="form">
+      <a href="#close" title="Close" class="close">X</a>
+
       <h2>Login Form</h2>
         <form class="login-form">
         <input type="text" id="field-1" type="text" placeholder="username"/>
