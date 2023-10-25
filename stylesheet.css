@@ -80,6 +80,8 @@
     width: 34px;
     height: 34px;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 10%;
 }
 
 
