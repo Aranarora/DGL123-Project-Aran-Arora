@@ -39,6 +39,7 @@
         <form class="login-form">
         <input type="text" name="uid" type="text" placeholder="username"/>
         <input type="password" name="psw"  type="password" placeholder="password"/>
+        <input type="password" name="pswrepeat"  type="password" placeholder="Repeat password"/>
         <input type="text" name="email"  type="email" placeholder="email address"/>
           <button class="form-wrapper-button">SIGN UP</button>
           <p class="message">Already registered? <a href="#login">Sign In</a></p>
