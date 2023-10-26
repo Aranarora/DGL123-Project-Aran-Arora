@@ -24,8 +24,8 @@
 
       <h2>LOGIN</h2>
         <form class="login-form">
-        <input type="text" id="field-1" type="text" placeholder="username"/>
-        <input type="password" id="field-1" type="password" placeholder="password"/>
+        <input type="text" name="uid" type="text" placeholder="username"/>
+        <input type="password" name="psw" type="password" placeholder="password"/>
           <button class="form-wrapper-button">LOGIN</button>
           <p class="message">Not registered? <a href="#signup">Create an account</a></p>
         </form>
@@ -37,9 +37,9 @@
 
       <h2>SIGN UP</h2>
         <form class="login-form">
-        <input type="text" id="field-1" type="text" placeholder="username"/>
-        <input type="password" id="field-1" type="password" placeholder="password"/>
-        <input type="text" id="field-1" type="email" placeholder="email address"/>
+        <input type="text" name="uid" type="text" placeholder="username"/>
+        <input type="password" name="psw"  type="password" placeholder="password"/>
+        <input type="text" name="email"  type="email" placeholder="email address"/>
           <button class="form-wrapper-button">SIGN UP</button>
           <p class="message">Already registered? <a href="#login">Sign In</a></p>
         </form>
