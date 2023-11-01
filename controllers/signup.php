@@ -13,5 +13,8 @@ class signupContr{
    }
    private function emptyInput(){
     $result;
-    
+    if(empty($this->$uid) || empty($this->$psw)|| empty($this->$pswrepeat)|empty($this->$email)){
+
+    }
+}
 }
