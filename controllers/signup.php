@@ -12,9 +12,13 @@ class signupContr{
     $this->email = $email;
    }
    private function emptyInput(){
-    $result;
-    if(empty($this->$uid) || empty($this->$psw)|| empty($this->$pswrepeat)|empty($this->$email)){
-
+    $result = 0;
+    if(empty($this->uid) || empty($this->psw)|| empty($this->pswrepeat)|empty($this->email)){
+        $result = false;
     }
+    else{
+        $result = true;
+    }
+    return $result;
 }
 }
