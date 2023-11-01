@@ -20,7 +20,7 @@ class signupContr{
         $result = true;
     }
     return $result;
-}
+    }
     private function invalidUid(){
     $result = 0;
     if(!preg_match("/^[a-zA-Z0-9]*$/",$this->uid)){
@@ -34,6 +34,15 @@ class signupContr{
     {
         $result = 0;
         if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
+            $result = false;
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    private function matchPsw(){
+        $result = 0;
+        if ($this->psw !== $this->pswrepeat) {
             $result = false;
         } else {
             $result = true;
