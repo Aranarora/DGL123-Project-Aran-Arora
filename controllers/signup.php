@@ -11,4 +11,7 @@ class signupContr{
     $this->pswrepeat = $pswrepeat;
     $this->email = $email;
    }
+   private function emptyInput(){
+    $result;
+    
 }
