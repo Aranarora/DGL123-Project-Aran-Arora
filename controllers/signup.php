@@ -4,4 +4,6 @@ class signupContr{
    private $psw; 
    private $pswrepeat; 
    private $email; 
+
+   public function __construct($uid, $psw, $pswrepeat, $email){}
 }
