@@ -6,4 +6,5 @@ if (isset($_POST["submit"])){
     $uid = $_POST["$email"];
 
     include "controllers/signup.php";
+    $signUp = new signupContr($uid, $psw, $pswrepeat, $email);
 }
