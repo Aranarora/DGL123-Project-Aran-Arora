@@ -4,6 +4,7 @@ class Signup extends Database{
     protected function setUser($uid, $pwd, $email)
     {
         $stmt = $this->connect()->prepare('INSERT INTO users (users_uid, users_pwd, users_email) VALUES (?, ?, ?);');
+        $hashedpwd = password_hash($pwd, PASSWORD_DEFAULT);
 
         if (!$stmt->excute(array($uid, $email))) {
             $stmt = null;
