@@ -10,5 +10,12 @@ class Signup extends Database{
             $error = 'The user already exist';
             exit();
         }
+        $resultCheck = 0;
+        if($stmt->rowcount() > 0){
+            $resultCheck = false;
+        }else{
+            $resultCheck = true;
+        }
+        return $resultCheck;
     }
 }
