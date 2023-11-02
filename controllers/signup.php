@@ -39,6 +39,7 @@ class signupContr{
             $error = "User or email already exist";
             exit();
         }
+        $this->setUser($this->uid, $this->psw, $this->email);
     }
    private function emptyInput(){
     $result = 0;
