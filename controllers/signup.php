@@ -11,6 +11,35 @@ class signupContr{
     $this->pswrepeat = $pswrepeat;
     $this->email = $email;
    }
+
+    public function signupUser()
+    {
+        if($this -> emptyInput() = false){
+            abort(403);
+            $error = "Need to enter all inputs value";
+            exit();
+        }
+        if ($this->invalidUid() = false) {
+            abort(403);
+            $error = "Enter invalid user name";
+            exit();
+        }
+        if ($this->invalidEmail() = false) {
+            abort(403);
+            $error = "Enter invalid email";
+            exit();
+        }
+        if ($this->matchPsw() = false) {
+            abort(403);
+            $error = "Re-entered password not match";
+            exit();
+        }
+        if ($this->matchPsw() = false) {
+            abort(403);
+            $error = "User or email already exist";
+            exit();
+        }
+    }
    private function emptyInput(){
     $result = 0;
     if(empty($this->uid) || empty($this->psw)|| empty($this->pswrepeat)|empty($this->email)){
