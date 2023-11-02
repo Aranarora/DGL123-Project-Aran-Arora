@@ -6,6 +6,9 @@ class Signup extends Database{
 
         if(!$stmt->excute(array($uid, $email))){
             $stmt = null;
+            abort(403);
+            $error = 'The user already exist';
+            exit();
         }
     }
 }
