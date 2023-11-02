@@ -49,4 +49,14 @@ class signupContr{
         }
         return $result;
     }
+    private function uidTakenCheck()
+    {
+        $result = 0;
+        if (!$this->checkUser($this->uid, $this->email)) {
+            $result = false;
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
 }
