@@ -14,36 +14,31 @@ class signupContr{
 
     public function signupUser()
     {
-        if($this -> emptyInput() = false){
-            abort(403);
-            $error = "Need to enter all inputs value";
+        if($this -> emptyInput() == false){
+            header("location: ../?error=emptyinput");
             exit();
         }
-        if ($this->invalidUid() = false) {
-            abort(403);
-            $error = "Enter invalid user name";
+        if ($this->invalidUid() == false) {
+            header("location: ../?error=username");
             exit();
         }
-        if ($this->invalidEmail() = false) {
-            abort(403);
-            $error = "Enter invalid email";
+        if ($this->invalidEmail() == false) {
+            header("location: ../?error=email");
             exit();
         }
-        if ($this->matchPsw() = false) {
-            abort(403);
-            $error = "Re-entered password not match";
+        if ($this->matchPsw() == false) {
+            header("location: ../?error=passwordmatch");
             exit();
         }
-        if ($this->matchPsw() = false) {
-            abort(403);
-            $error = "User or email already exist";
+        if ($this->uidTakenCheck() == false) {
+            header("location: ../?error=useroremailtaken");
             exit();
         }
         $this->setUser($this->uid, $this->psw, $this->email);
     }
    private function emptyInput(){
-    $result = 0;
-    if(empty($this->uid) || empty($this->psw)|| empty($this->pswrepeat)|empty($this->email)){
+    $result = false;
+    if(empty($this->uid) || empty($this->psw) || empty($this->pswrepeat) || empty($this->email)){
         $result = false;
     }
     else{
@@ -52,7 +47,7 @@ class signupContr{
     return $result;
     }
     private function invalidUid(){
-    $result = 0;
+    $result = false;
     if(!preg_match("/^[a-zA-Z0-9]*$/",$this->uid)){
         $result = false;
     }else {
@@ -62,7 +57,7 @@ class signupContr{
     }
     private function invalidEmail()
     {
-        $result = 0;
+        $result = false;
         if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
             $result = false;
         } else {
@@ -71,7 +66,7 @@ class signupContr{
         return $result;
     }
     private function matchPsw(){
-        $result = 0;
+        $result = false;
         if ($this->psw !== $this->pswrepeat) {
             $result = false;
         } else {
@@ -81,7 +76,7 @@ class signupContr{
     }
     private function uidTakenCheck()
     {
-        $result = 0;
+        $result = false;
         if (!$this->checkUser($this->uid, $this->email)) {
             $result = false;
         } else {
