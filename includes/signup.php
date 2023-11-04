@@ -5,7 +5,9 @@ if (isset($_POST["submit"])){
     $pswrepeat = $_POST["pswrepeat"];
     $email = $_POST["email"];
 
-    include "controllers/signup.php";
+    include "../Database.php";
+    include "../signup.php";
+    include "../controllers/signup.php";
     $signUp = new signupContr($uid, $psw, $pswrepeat, $email);
 
     $signUp->signupUser();
