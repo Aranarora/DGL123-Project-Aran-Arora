@@ -8,7 +8,7 @@ class Login extends Database
 
         if (!$stmt->execute(array($uid, $psw))) {
             $stmt = null;
-            header("location: ./index.php?error=stmtfailed");
+            header("location: ./?error=stmtfailed");
             exit();
         }
 
