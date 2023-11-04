@@ -18,6 +18,7 @@
             <article class="cards">
             <div>
                 <picture class="black">
+                    <img src="imagefolder/ride-rent.jpg" alt="Electric scooter red and black color on road">
                 </picture>
             <div>
                 <h3>Model X</h3>
@@ -29,6 +30,7 @@
             <article class="cards">
             <div >
                 <picture class="black">
+                    <img src="imagefolder/ride-rent.jpg" alt="Electric scooter red and black color on road">
                 </picture>
             <div>
                 <h3>Model Y</h3>
@@ -40,6 +42,7 @@
             <article class="cards">
             <div>
                 <picture class="black">
+                    <img src="imagefolder/ride-rent.jpg" alt="Electric scooter red and black color on road">
                 </picture>
             <div>
                 <h3>Model Z</h3>
