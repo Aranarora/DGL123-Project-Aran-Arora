@@ -11,6 +11,8 @@
                 <li><a href="ride">Ride</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="contact">Contact Us</a></li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
                 <?php
                 if(isset($_SESSION["userid"])){
                   ?>
