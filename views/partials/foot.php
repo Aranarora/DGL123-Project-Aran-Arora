@@ -4,7 +4,7 @@
             <div class="home-logo">
                     <figure>
                         <a href="/">
-                            <img src="imagefolder/runrentallogo.jpeg" width="120" height="120" style="width: 80%; height: auto;" alt="image placeholder" /></a>
+                            <img src="imagefolder/logo.png" width="120" height="120" style="width: 80%; height: auto;" alt="image placeholder" /></a>
                     </figure>
                 </div>
                 <div class="direct-contact">
