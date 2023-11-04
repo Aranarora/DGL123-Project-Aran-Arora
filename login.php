@@ -39,7 +39,8 @@ class Login extends Database
                 header("location: login.php?error=usernotfound");
                 exit();
             }
-            
+            $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
         }
     }
 }
