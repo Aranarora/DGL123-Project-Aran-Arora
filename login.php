@@ -29,6 +29,12 @@ class Login extends Database
         elseif ($checkPsw == true){
             $stmt = $this->connect()->prepare('SELECT * FROM users WHERE users_uid = ? OR users_email = ? AND users_psw = ?;');
             
+            if (!$stmt->execute(array($uid, $uid, $psw))) {
+                $stmt = null;
+                header("location: ./?error=stmtfailed");
+                exit();
+            }
+            
         }
     }
 }
