@@ -10,10 +10,20 @@
             <ul class="links">
                 <li><a href="ride">Ride</a></li>
                 <li><a href="about">About</a></li>
-                <li><a href="contact">Contact Us</a>
-                <li><a href="#signup">SIGN UP</a>
+                <li><a href="contact">Contact Us</a></li>
+                <?php
+                if(isset($_SESSION["userid"])){
+                  ?>
+                  <li><a href = "#"><?php echo $_SESSION["useruid"]; ?> </a> </li>
+                  <li><a href="includes/logout.php">LOGOUT</a> </li>
+                  <?php }
+                  else{
+                    ?>
+                <li><a href="#signup">SIGN UP</a> </li>
                 <li><a href="#login">LOGIN</a>
             </li>
+            <?php } 
+            ?>
             </ul>
         </nav>
          <!-- https://codepen.io/colorlib/pen/rxddKy -->
