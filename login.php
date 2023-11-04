@@ -34,6 +34,11 @@ class Login extends Database
                 header("location: ./?error=stmtfailed");
                 exit();
             }
+            if ($stmt->rowCount() == 0) {
+                $stmt = null;
+                header("location: login.php?error=usernotfound");
+                exit();
+            }
             
         }
     }
