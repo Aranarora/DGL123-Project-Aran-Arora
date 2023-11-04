@@ -7,4 +7,8 @@ if (isset($_POST["submit"])){
 
     include "controllers/signup.php";
     $signUp = new signupContr($uid, $psw, $pswrepeat, $email);
+
+    $signUp->signupUser();
+
+    header("location: ../?error=none");
 }
