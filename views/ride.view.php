@@ -16,7 +16,7 @@
     <div class="cardssection">
         <div class="allcards">
             <article class="cards">
-            <div class="part1-div2">
+            <div>
                 <picture class="black">
                 </picture>
             <div>
@@ -27,7 +27,7 @@
             </div>
             </article>
             <article class="cards">
-            <div class="part1-div2">
+            <div >
                 <picture class="black">
                 </picture>
             <div>
@@ -38,7 +38,7 @@
             </div>
             </article>
             <article class="cards">
-            <div class="part1-div2">
+            <div>
                 <picture class="black">
                 </picture>
             <div>
