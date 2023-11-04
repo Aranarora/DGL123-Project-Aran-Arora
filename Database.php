@@ -8,7 +8,8 @@ class Database{
             return $dsn;
         }
         catch(PDOException $e){
-            throw new PDOException($e->getMessage(), $e->getCode());
+            print "Error!: " . $e->getMessage() . "<br/>";
+            die();
         }
     }
 }
