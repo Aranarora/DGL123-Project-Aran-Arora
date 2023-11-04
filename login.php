@@ -11,6 +11,11 @@ class Login extends Database
             header("location: ./index.php?error=stmtfailed");
             exit();
         }
+
+        if ($stmt->rowCount() == 0) {
+        }
+
+        
     }
 }
     
