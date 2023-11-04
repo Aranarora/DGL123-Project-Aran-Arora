@@ -20,6 +20,13 @@ class Login extends Database
 
         $pswHashed = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $checkPsw = password_verify($psw, $pswHashed[0]["users_psw"]);
+
+        if ($checkPsw == false ) {
+            $stmt = null;
+            header("location: login.php?error=wrongpassword");
+            exit();
+        }
+        
     }
 }
     
