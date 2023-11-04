@@ -1,5 +1,5 @@
 <?php 
-class signupContr{
+class signupContr extends Signup{
    private $uid; 
    private $psw; 
    private $pswrepeat; 
