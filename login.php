@@ -18,7 +18,7 @@ class Login extends Database
             exit();
         }
 
-        
+        $pswHashed = $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }
     
