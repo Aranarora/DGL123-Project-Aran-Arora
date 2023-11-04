@@ -26,7 +26,10 @@ class Login extends Database
             header("location: login.php?error=wrongpassword");
             exit();
         }
-        
+        elseif ($checkPsw == true){
+            $stmt = $this->connect()->prepare('SELECT * FROM users WHERE users_uid = ? OR users_email = ? AND users_psw = ?;');
+            
+        }
     }
 }
     
