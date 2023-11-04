@@ -23,10 +23,10 @@
       <a href="#close" title="Close" class="close">X</a>
 
       <h2>LOGIN</h2>
-        <form class="login-form">
+        <form class="login-form" action="includes/login.php" method="post">
         <input type="text" name="uid" type="text" placeholder="Username"/>
         <input type="password" name="psw" type="password" placeholder="Password"/>
-          <button class="form-wrapper-button">LOGIN</button>
+          <button class="form-wrapper-button" type="submit" name="submit">LOGIN</button>
           <p class="message">Not registered? <a href="#signup">Create an account</a></p>
         </form>
         </div>
@@ -36,12 +36,12 @@
       <a href="#close" title="Close" class="close">X</a>
 
       <h2>SIGN UP</h2>
-        <form class="login-form">
+        <form class="login-form" action="includes/signup.php" method="post">
         <input type="text" name="uid" type="text" placeholder="Username"/>
         <input type="password" name="psw"  type="password" placeholder="Password"/>
         <input type="password" name="pswrepeat"  type="password" placeholder="Repeat password"/>
         <input type="text" name="email"  type="email" placeholder="E-mail"/>
-          <button class="form-wrapper-button">SIGN UP</button>
+          <button class="form-wrapper-button" type="submit" name="submit">SIGN UP</button>
           <p class="message">Already registered? <a href="#login">Sign In</a></p>
         </form>
         </div>
