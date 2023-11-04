@@ -33,7 +33,7 @@
         </div>
         <div class="part1-div2">
         <picture>
-            <img src="imagefolder/placeholder-1.png" width="320" height="180">
+            <img src="imagefolder/ride-5.jpg" width="320" height="180">
         </picture>
         </div>
       </div>
