@@ -1,9 +1,9 @@
 <?php
 if (isset($_POST["submit"])){
-    $uid = $_POST["$uid"];
-    $uid = $_POST["$psw"];
-    $uid = $_POST["$pswrepeat"];
-    $uid = $_POST["$email"];
+    $uid = $_POST["uid"];
+    $psw = $_POST["psw"];
+    $pswrepeat = $_POST["pswrepeat"];
+    $email = $_POST["email"];
 
     include "controllers/signup.php";
     $signUp = new signupContr($uid, $psw, $pswrepeat, $email);
