@@ -1,30 +1,28 @@
 <?php
 class Signup extends Database{
 
-    protected function setUser($uid, $pwd, $email)
+    protected function setUser($uid, $psw, $email)
     {
-        $stmt = $this->connect()->prepare('INSERT INTO users (users_uid, users_pwd, users_email) VALUES (?, ?, ?);');
-        $hashedpwd = password_hash($pwd, PASSWORD_DEFAULT);
+        $stmt = $this->connect()->prepare('INSERT INTO `users`.`users` (users_uid, users_psw, users_email) VALUES (?, ?, ?);');
+        $hashedpsw = password_hash($psw, PASSWORD_DEFAULT);
 
-        if (!$stmt->excute(array($uid, $hashedpwd, $email))) {
+        if (!$stmt->execute(array($uid, $hashedpsw, $email))) {
             $stmt = null;
-            abort(403);
-            $error = 'The user already exist';
+            header("location: ./index.php?error=stmtfailed");
             exit();
         }
         $stmt = null;
     }
 
     protected function checkUser($uid, $email){
-        $stmt = $this->connect()->prepare('SELECT users_uid from LoginTable WHERE users_uid = ? OR users_email = ?;');
+        $stmt = $this->connect()->prepare('SELECT users_uid FROM `users`.`users` WHERE users_uid = ? OR users_email = ?;');
 
-        if(!$stmt->excute(array($uid, $email))){
+        if(!$stmt->execute(array($uid, $email))){
             $stmt = null;
-            abort(403);
-            $error = 'The user already exist';
+            header("location: ./index.php?error=stmtfailed");
             exit();
         }
-        $resultCheck = 0;
+        $resultCheck = false;
         if($stmt->rowcount() > 0){
             $resultCheck = false;
         }else{
