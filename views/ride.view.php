@@ -84,7 +84,7 @@
 
       <h2>Book Now</h2>
         <form class="login-form" method="post">
-        <input name="uid" type="text" placeholder="Username"/>
+        <input name="uid" type="text" placeholder=<?php echo $_SESSION["useruid"]; ?> />
         <input  name="date" type="date"/>
         <input  name="time" type="time" placeholder="hh:mm"/>
           <button class="form-wrapper-button" type="submit" name="submit">Book</button>
