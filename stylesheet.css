@@ -79,6 +79,9 @@ h3 {
   max-width: 750px;
   width: 85%;
 }
+.links li{
+  color: var(--accent-color);
+}
 
 .menu-button-container {
   display: none;
