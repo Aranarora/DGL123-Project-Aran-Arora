@@ -1,15 +1,12 @@
 <?php require('partials/head.php') ?>
 
 <?php require('partials/nav.php') ?>
-<?php
-class ProfileInfoview extends ProfileInfo{
-
-}
-?>
-
 <main>
-<h1>About</h1>
-<p></p>
-<h2></h2>
-<p><br><br></p>
+<div class="content-wrap">
+<h1>Aran</h1>
+<h2>Booking Information</h2>
+<p>Date: 2023-11-11</p>
+<p>Time: 04:00 pm</p>
+</div>
 </main>
+<?php require('partials/foot.php') ?>
