@@ -3,7 +3,7 @@
 <?php require('partials/nav.php') ?>
 <main>
 <div class="content-wrap">
-<h1>Aran</h1>
+<h1><?php echo $_SESSION["useruid"]; ?></h1>
 <h2>Booking Information</h2>
 <p>Date: 2023-11-11</p>
 <p>Time: 04:00 pm</p>
