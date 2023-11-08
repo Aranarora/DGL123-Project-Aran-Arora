@@ -18,6 +18,7 @@
     - Then, the user-entered information will be sent to the database to check if the user ID and email are unique. If they are unique, let the user Sign In and store the data in the database; otherwise, display the user ID and email already exist.
 
 #### Book Now Button on the Ride page.
+![Book Now button](imagefolder/booknow.png)
 - The Book Now button is used for booking the electric scooter, but it checks whether the user logs in before showing the booking.
 
     - When the user clicks the book now button if the user has logged in, it displays the booking form; otherwise, it displays that the user needs to sign.
