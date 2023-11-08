@@ -1,6 +1,11 @@
 <?php require('partials/head.php') ?>
 
 <?php require('partials/nav.php') ?>
+<?php
+class ProfileInfoview extends ProfileInfo{
+
+}
+?>
 
 <main>
 <h1>About</h1>
