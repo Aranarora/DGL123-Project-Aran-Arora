@@ -2,6 +2,27 @@
 
 ## PHP Project
 
+### Documentation:
+#### Login Form
+- The login form is used for flow to check if the user exists in the data. If not, then display that the account does not exist. Please Sign Up first.
+
+    - In the place of the username, the user needs to enter their username, and in the support of the password, the user enters the password which connects with that user ID.
+    - Then, the user-entered information will be sent to the database to check if the user ID and password exist. If they exist, then the users sign in; otherwise, display that the account does not exist; please Sign Up first. 
+
+#### Sign Up Form
+
+- The signup form checks flow if the user ID and email exist in the data. If not, send the data to the database and let the user Sign In.
+
+    - In the place of the username input, the user needs to create their username, and in the password input, the user needs to make their password corresponding to their user ID. In the confirm password, the user confirms their password by re-entering it, and in the email input, the user enters their email.
+    - Then, the user-entered information will be sent to the database to check if the user ID and email are unique. If they are unique, let the user Sign In and store the data in the database; otherwise, display the user ID and email already exist.
+
+#### Book Now Button on the Ride page.
+- The Book Now button is used for booking the electric scooter, but it checks whether the user logs in before showing the booking.
+
+    - When the user clicks the book now button if the user has logged in, it displays the booking form; otherwise, it displays that the user needs to sign.
+    - In the booking form, the user needs to fill the form correctly. If the user fills in correctly, the scooter will book. Otherwise, the form will display the error to fill in the info correctly.
+
+
 ### Milestone 1:
 - I completed the first stage of the project, which involved developing the user interface (UI) by producing low-fidelity wireframes, in Milestone 1. These wireframes provide as a basic illustration of the project's appearance and functionality.
 
