@@ -39,13 +39,13 @@
 
 - In Milestone 3, a significant milestone has been reached in the project's development. The signup and login forms have been successfully connected, enhancing the user experience and security. Notably, we've implemented specific functions and conditions to ensure data integrity and user-friendly interactions.
 
-User ID Restrictions: Users can now only enter a user ID that contains a combination of alphabets and numbers, improving data quality and security.
+- User ID Restrictions: Users can now only enter a user ID that contains a combination of alphabets and numbers, improving data quality and security.
 
-Unique Email and User ID: The system prevents the registration of accounts with duplicate email addresses or user IDs. This ensures the uniqueness of user credentials and enhances data integrity.
+- Unique Email and User ID: The system prevents the registration of accounts with duplicate email addresses or user IDs. This ensures the uniqueness of user credentials and enhances data integrity.
 
-Password Validation: Password and password repeat fields have been implemented with validation checks. Users are prompted to enter their password twice to ensure accuracy, and the system verifies that the two entries match.
+- Password Validation: Password and password repeat fields have been implemented with validation checks. Users are prompted to enter their password twice to ensure accuracy, and the system verifies that the two entries match.
 
-These additions not only enhance the security of user data but also contribute to a smoother and more reliable user experience. Milestone 3 represents a significant leap forward in the project's development, ensuring that user interactions are more secure and user-friendly while laying the groundwork for future database integration.
+- These additions not only enhance the security of user data but also contribute to a smoother and more reliable user experience. Milestone 3 represents a significant leap forward in the project's development ensuring that user interactions are more secure and user-friendly while laying the groundwork for future database integration.
 
 
 
