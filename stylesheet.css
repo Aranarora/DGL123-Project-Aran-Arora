@@ -144,7 +144,7 @@ h3 {
   display: inline;
 }
 
-.navbar a:hover,
+.active,.navbar a:hover,
 .links a:hover {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
