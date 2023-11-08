@@ -8,13 +8,13 @@ class Login extends Database
 
         if (!$stmt->execute(array($uid, $psw))) {
             $stmt = null;
-            header("location: ./?error=stmtfailed");
+            header("location: ../?error=stmtfailed");
             exit();
         }
 
         if ($stmt->rowCount() == 0) {
             $stmt = null;
-            header("location: login.php?error=usernotfound");
+            header("location: ../?error=user-not-found-enter-userid-only");
             exit();
         }
 
@@ -23,7 +23,7 @@ class Login extends Database
 
         if ($checkPsw == false ) {
             $stmt = null;
-            header("location: login.php?error=wrongpassword");
+            header("location: ../?error=wrongpassword");
             exit();
         }
         elseif ($checkPsw == true){
@@ -31,12 +31,12 @@ class Login extends Database
             
             if (!$stmt->execute(array($uid, $uid, $psw))) {
                 $stmt = null;
-                header("location: ./?error=stmtfailed");
+                header("location: ../?error=stmtfailed");
                 exit();
             }
             if ($stmt->rowCount() == 0) {
                 $stmt = null;
-                header("location: login.php?error=usernotfound");
+                header("location: ../?error=usernotfound");
                 exit();
             }
             $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
