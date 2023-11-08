@@ -11,7 +11,7 @@
     - Then, the user-entered information will be sent to the database to check if the user ID and password exist. If they exist, then the users sign in; otherwise, display that the account does not exist; please Sign Up first. 
 
 #### Sign Up Form
-
+![Signup form](imagefolder/signup.png)
 - The signup form checks flow if the user ID and email exist in the data. If not, send the data to the database and let the user Sign In.
 
     - In the place of the username input, the user needs to create their username, and in the password input, the user needs to make their password corresponding to their user ID. In the confirm password, the user confirms their password by re-entering it, and in the email input, the user enters their email.
