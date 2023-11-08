@@ -24,7 +24,16 @@
                 <h3>Model X</h3>
                 <p>
                 Introducing our cutting-edge electric scooter model, the Model X. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
-                <button class="btn">Book Now</button>
+                 <?php
+                if(isset($_SESSION["userid"])){
+                  ?>
+                  <a class="btn" href="#">Book Now</a>
+                  <?php }
+                  else{
+                    ?>
+               <a class="btn" href="#signup">Book Now</a>
+            <?php } 
+            ?>
             </div>
             </article>
             <article class="cards">
@@ -36,7 +45,17 @@
                 <h3>Model Y</h3>
                 <p>
                 Introducing our cutting-edge electric scooter model, the Model Y. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
-                <button class="btn">Book Now</button>
+                 <?php
+                if(isset($_SESSION["userid"])){
+                  ?>
+                  <a class="btn" href="#">Book Now</a>
+                  <?php }
+                  else{
+                    ?>
+               <a class="btn" href="#signup">Book Now</a>
+            <?php } 
+            ?>
+
             </div>
             </article>
             <article class="cards">
@@ -48,7 +67,16 @@
                 <h3>Model Z</h3>
                 <p>
                 Introducing our cutting-edge electric scooter model, the Model Z. Engineered for urban mobility, this sleek and agile scooter is designed to effortlessly navigate through bustling city streets, sidestepping traffic jams with ease. With a top speed of 30 km per hour, it's not just a ride; it's a swift and eco-friendly journey that complements your urban lifestyle. </p>
-                <button class="btn">Book Now</button>
+                 <?php
+                if(isset($_SESSION["userid"])){
+                  ?>
+                  <a class="btn" href="#">Book Now</a>
+                  <?php }
+                  else{
+                    ?>
+               <a class="btn" href="#signup">Book Now</a>
+            <?php } 
+            ?>
             </div>
             </article>
             </div>
