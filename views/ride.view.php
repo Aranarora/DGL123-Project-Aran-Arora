@@ -27,7 +27,7 @@
                  <?php
                 if(isset($_SESSION["userid"])){
                   ?>
-                  <a class="btn" href="#">Book Now</a>
+                  <a class="btn" href="#book">Book Now</a>
                   <?php }
                   else{
                     ?>
@@ -48,7 +48,7 @@
                  <?php
                 if(isset($_SESSION["userid"])){
                   ?>
-                  <a class="btn" href="#">Book Now</a>
+                  <a class="btn" href="#book">Book Now</a>
                   <?php }
                   else{
                     ?>
@@ -70,7 +70,7 @@
                  <?php
                 if(isset($_SESSION["userid"])){
                   ?>
-                  <a class="btn" href="#">Book Now</a>
+                  <a class="btn" href="#book">Book Now</a>
                   <?php }
                   else{
                     ?>
@@ -78,6 +78,19 @@
             <?php } 
             ?>
             </div>
+            <div id="book" class="login-page">
+      <div class="form">
+      <a href="#close" title="Close" class="close">X</a>
+
+      <h2>Book Now</h2>
+        <form class="login-form" method="post">
+        <input name="uid" type="text" placeholder="Username"/>
+        <input  name="date" type="date"/>
+        <input  name="time" type="time" placeholder="hh:mm"/>
+          <button class="form-wrapper-button" type="submit" name="submit">Book</button>
+        </form>
+        </div>
+      </div>
             </article>
             </div>
         </div>
