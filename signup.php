@@ -8,7 +8,7 @@ class Signup extends Database{
 
         if (!$stmt->execute(array($uid, $hashedpsw, $email))) {
             $stmt = null;
-            header("location: ./index.php?error=stmtfailed");
+            header("location: ./?error=stmtfailed");
             exit();
         }
         $stmt = null;
@@ -19,7 +19,7 @@ class Signup extends Database{
 
         if(!$stmt->execute(array($uid, $email))){
             $stmt = null;
-            header("location: ./index.php?error=stmtfailed");
+            header("location: ./?error=stmtfailed");
             exit();
         }
         $resultCheck = false;
