@@ -30,4 +30,23 @@ class Signup extends Database{
         }
         return $resultCheck;
     }
+//      protected function getUserId($uid){
+
+//         $stmt = $this->connect()->prepare('SELECT users_id FROM users where users_uid = ?;');
+
+//         if(!$stmt->execute(array($uid))){
+//             $stmt= null;
+//             header("location: profile.php?error=stmtfailed");
+//             exit();
+            
+//         }
+//          if($stmt->rowCount() == 0){
+//             $stmt= null;
+//             header("location: profile.php?error=profilenotfound");
+//             exit();
+//     }
+//     $profileData = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+//     return $profileData;
+// }
 }
