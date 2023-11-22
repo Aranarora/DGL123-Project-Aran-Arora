@@ -48,4 +48,5 @@
 - These additions not only enhance the security of user data but also contribute to a smoother and more reliable user experience. Milestone 3 represents a significant leap forward in the project's development ensuring that user interactions are more secure and user-friendly while laying the groundwork for future database integration.
 
 
-
+### CPanel deployment 
+- Add the instruction in the main branch deploy-instructions.md file
