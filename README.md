@@ -1,5 +1,9 @@
 # DGL123-Project-Aran-Arora
 
+- Repository main branch: - https://github.com/Aranarora/DGL123-Project-Aran-Arora/tree/main
+- Repository deploym3 branch: - https://github.com/Aranarora/DGL123-Project-Aran-Arora/tree/deploym3
+
+
 ## PHP Project
 
 ### Documentation:
