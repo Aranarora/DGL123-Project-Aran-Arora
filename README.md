@@ -53,7 +53,7 @@
 - Change the nav and router links as required to make it work on CPanel subdomain
 
 #### Images of project workin in subdomain
-![CPanel](imagefolder/project-cpanel-1)
-![CPanel](imagefolder/project-cpanel-2)
-![CPanel](imagefolder/project-cpanel-3)
-![CPanel](imagefolder/project-cpanel-4)
+![CPanel](imagefolder/project-cpanel-1.png)
+![CPanel](imagefolder/project-cpanel-2.png)
+![CPanel](imagefolder/project-cpanel-3.png)
+![CPanel](imagefolder/project-cpanel-4.png)
