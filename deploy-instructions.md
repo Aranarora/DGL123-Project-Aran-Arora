@@ -22,3 +22,6 @@
 - Create the zip file of the milestone 3 folder
 - Extract it in the dgl123 subdomain
 
+## Change the database configuration of project
+- Change the user name and password which created in database my SQL
+- Chnage the database name according to the new database name.
