@@ -1,7 +1,7 @@
 <header>
 
         <nav class="navbar">
-        <a href="/">RunRentals</a>
+        <a href="/DGL123-Project-Aran-Arora/">RunRentals</a>
         <!-- creating menu in css only idea taken from https://codepen.io/alvarotrigo/pen/MWEJEWG  -->
         <input id="menu-toggle" type="checkbox" />
             <label class="menu-button-container" for="menu-toggle">
