@@ -51,3 +51,9 @@
 ### CPanel deployment 
 - Add the instruction in the main branch deploy-instructions.md file
 - Change the nav and router links as required to make it work on CPanel subdomain
+
+#### Images of project workin in subdomain
+![CPanel](imagefolder/project-cpanel-1)
+![CPanel](imagefolder/project-cpanel-2)
+![CPanel](imagefolder/project-cpanel-3)
+![CPanel](imagefolder/project-cpanel-4)
