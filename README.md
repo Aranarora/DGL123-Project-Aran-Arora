@@ -50,3 +50,4 @@
 
 ### CPanel deployment 
 - Add the instruction in the main branch deploy-instructions.md file
+- Change the nav and router links as required to make it work on CPanel subdomain
