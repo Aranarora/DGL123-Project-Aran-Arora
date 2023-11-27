@@ -7,7 +7,7 @@ $routes = [
     $proj_root . 'about' => 'controllers/about.php',
     $proj_root . 'contact' => 'controllers/contact.php',
     $proj_root . 'ride' => 'controllers/ride.php',
-    '/DGL123-Project-Aran-Arora/profile' => 'controllers/profile.php',
+    $proj_root . 'profile' => 'controllers/profile.php',
 ];
 
 function routeToController($uri, $routes){
