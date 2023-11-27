@@ -3,7 +3,7 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
-    '/DGL123-Project-Aran-Arora/' => 'controllers/index.php',
+    $proj_root => 'controllers/index.php',
     '/DGL123-Project-Aran-Arora/about' => 'controllers/about.php',
     '/DGL123-Project-Aran-Arora/contact' => 'controllers/contact.php',
     '/DGL123-Project-Aran-Arora/ride' => 'controllers/ride.php',
