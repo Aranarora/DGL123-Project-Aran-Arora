@@ -6,7 +6,7 @@ $routes = [
     $proj_root => 'controllers/index.php',
     $proj_root . 'about' => 'controllers/about.php',
     $proj_root . 'contact' => 'controllers/contact.php',
-    '/DGL123-Project-Aran-Arora/ride' => 'controllers/ride.php',
+    $proj_root . 'ride' => 'controllers/ride.php',
     '/DGL123-Project-Aran-Arora/profile' => 'controllers/profile.php',
 ];
 
