@@ -10,6 +10,7 @@ $routes = [
     $proj_root . 'profile' => 'controllers/profile.php',
 ];
 
+
 function routeToController($uri, $routes){
 if (array_key_exists($uri, $routes)){
     require $routes[$uri];
