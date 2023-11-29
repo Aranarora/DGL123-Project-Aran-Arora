@@ -60,3 +60,5 @@
 - Before starting this assignment, I used GitHub Desktop to fork my semester project and establish a new branch called "projroot" by separating it from the main branch. While exploring my project's coding, I came across hardcoded path segments about the document root. Then i create a configuration variable called $proj_root, for match the path references in my project's settings.
 
 - I then changed the hardcoded paths one by one with the newly formed $proj_root variable with filenames concatenated. Using Git to commit changes and test after every modification allowed me to keep a consistent version history. Using resources and examples to ensure proper implementation, I jumped right into changing the configuration code to extract the value of $proj_root from the $_SERVER superglobal as required in assignment.
+
+- Finally, after completing the process, I used GitHub to merge the finished "projroot" branch back into the main branch, strengthening my grasp of effective Git procedures, rewriting code to use variables for document root paths, and retrieving data from PHP's $_SERVER superglobal.
