@@ -33,6 +33,11 @@ class signupContr extends Signup{
 
             exit();
         }
+        if ($this->eightchpsw() == false) {
+            echo("<script>alert('Password does not meet the requirements! It must be alphanumeric and atleast 8 characters long');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
+            exit();
+        }
         if ($this->uidTakenCheck() == false) {
             echo("<script>alert('The Username or Email already exist');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
             exit();
@@ -71,6 +76,15 @@ class signupContr extends Signup{
     private function matchPsw(){
         $result = false;
         if ($this->psw !== $this->pswrepeat) {
+            $result = false;
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    private function eightchpsw(){
+        $result = false;
+        if (!preg_match('/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{8,}$/', $this->pswrepeat)) {
             $result = false;
         } else {
             $result = true;
