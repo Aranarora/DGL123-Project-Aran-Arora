@@ -75,8 +75,8 @@
       <a href="#close" title="Close" class="close">X</a>
 
       <h2>Book Now</h2>
-        <form class="login-form" method="post">
-        <input name="uid" type="text" placeholder=<?php echo $_SESSION["useruid"]; ?> />
+        <form class="login-form" method="post" action="includes/book.php">
+        <input name="name" type="text" placeholder="Name" />
         <input  name="date" type="date"/>
         <input  name="time" type="time" placeholder="hh:mm"/>
           <button class="form-wrapper-button" type="submit" name="submit">Book</button>
