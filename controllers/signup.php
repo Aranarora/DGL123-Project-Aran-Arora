@@ -15,23 +15,26 @@ class signupContr extends Signup{
     public function signupUser()
     {
         if($this -> emptyInput() == false){
-            header("location: ../?error=emptyinput");
+            echo("<script>alert('Fill all fields');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
             exit();
         }
         if ($this->invalidUid() == false) {
-            header("location: ../?error=username");
+            echo("<script>alert('Invalid Username');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
             exit();
         }
         if ($this->invalidEmail() == false) {
-            header("location: ../?error=email");
+            echo("<script>alert('Invalid Email');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
             exit();
         }
         if ($this->matchPsw() == false) {
-            header("location: ../?error=passwordmatch");
+            echo("<script>alert('Password not match');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
             exit();
         }
         if ($this->uidTakenCheck() == false) {
-            header("location: ../?error=useroremailtaken");
+            echo("<script>alert('The Username or Email already exist');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
             exit();
         }
         $this->setUser($this->uid, $this->psw, $this->email);
