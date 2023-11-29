@@ -12,5 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $signUp->signupUser();
 
-    header("location: ../?error=none");
+    echo("<script>alert('User Registered');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
 }
