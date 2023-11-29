@@ -8,13 +8,15 @@ class Login extends Database
 
         if (!$stmt->execute(array($uid, $psw))) {
             $stmt = null;
-            header("location: ../?error=stmtfailed");
+            echo("<script>alert('STMT failed to link');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+            
             exit();
         }
 
         if ($stmt->rowCount() == 0) {
             $stmt = null;
-            header("location: ../?error=user-not-found-enter-userid-only");
+            echo("<script>alert('User not found please enter valid Username only');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
             exit();
         }
 
@@ -23,7 +25,8 @@ class Login extends Database
 
         if ($checkPsw == false ) {
             $stmt = null;
-            header("location: ../?error=wrongpassword");
+            echo("<script>alert('Incorrect Password');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
+
             exit();
         }
         elseif ($checkPsw == true){
