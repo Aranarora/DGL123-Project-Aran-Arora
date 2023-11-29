@@ -13,7 +13,7 @@ class loginContr extends Login
     public function loginUser()
     {
         if ($this->emptyInput() == false) {
-            header("location: ../?error=emptyinput");
+            echo("<script>alert('Fill all fields');window.location.href='/DGL123-Project-Aran-Arora/';</script>");
             exit();
         }
         
