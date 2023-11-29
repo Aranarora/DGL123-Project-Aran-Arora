@@ -57,3 +57,4 @@
 #### Deployed project link: - https://dgl123.aarora.imgd.ca/DGL123-Project-Aran-Arora/
 
 ### Assignment 9: Refactor Project Pathnames
+- Before starting this assignment, I used GitHub Desktop to fork my semester project and establish a new branch called "projroot" by separating it from the main branch. While exploring my project's coding, I came across hardcoded path segments about the document root. Then i create a configuration variable called $proj_root, for match the path references in my project's settings.
