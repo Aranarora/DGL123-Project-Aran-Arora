@@ -5,4 +5,4 @@ session_unset();
 session_destroy();
 
 
-header("location: ../?error=none");
+echo("<script>alert('Logout successful');window.location.href='/DGL123-Project-Aran-Arora/';</script>");

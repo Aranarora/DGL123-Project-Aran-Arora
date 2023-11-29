@@ -9,5 +9,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $login->loginUser();
 
-    header("location: ../?error=login");
+    echo("<script>alert('Login successful');window.location.href='/DGL123-Project-Aran-Arora/';</script>");    
 }
